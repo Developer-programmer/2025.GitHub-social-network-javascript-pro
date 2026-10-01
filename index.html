@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Social Network - The Future</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <i class="fab fa-github"></i>
+      <span>GitHub Social</span>
+    </div>
+    <ul class="nav-left">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#explore">Explore</a></li>
+      <li><a href="#repositories">Repositories</a></li>
+      <li><a href="#network">Network</a></li>
+      <li><a href="#activity">Activity</a></li>
+    </ul>
+    <div class="auth-links">
+      <a href="#" class="login">Sign In</a>
+      <a href="#" class="signup">Sign Up</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-github" id="home">
+    <div class="github-glow"></div>
+    <div class="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fab fa-github"></i>
+        <span>The Future of Developer Social Network</span>
+      </div>
+      <h1 class="hero-title">
+        Connect. Code. <span class="gradient-text">Collaborate.</span>
+      </h1>
+      <p class="hero-description">
+        Experience the next generation of GitHub social networking. Connect with developers worldwide,
+        showcase your projects, and build the future together.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn primary">
+          <i class="fas fa-rocket"></i>
+          Get Started
+        </a>
+        <a href="#" class="btn ghost">
+          <i class="fas fa-play"></i>
+          Watch Demo
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number" data-target="50M">0</div>
+          <div class="stat-label">Developers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="200M">0</div>
+          <div class="stat-label">Repositories</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="1B">0</div>
+          <div class="stat-label">Contributions</div>
+        </div>
+      </div>
+    </div>
+    <div class="floating-elements">
+      <div class="float-icon"><i class="fab fa-github"></i></div>
+      <div class="float-icon"><i class="fas fa-code"></i></div>
+      <div class="float-icon"><i class="fas fa-users"></i></div>
+      <div class="float-icon"><i class="fas fa-star"></i></div>
+    </div>
+  </section>
+
+  <!-- Profile Showcase -->
+  <section class="profile-showcase" id="explore">
+    <div class="section-header">
+      <h2>Featured Developers</h2>
+      <p>Connect with top contributors from around the world</p>
+    </div>
+    <div class="profiles-grid">
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=developer1" alt="Developer">
+          <div class="status-indicator online"></div>
+        </div>
+        <div class="profile-info">
+          <h3>Alex Chen</h3>
+          <p class="profile-username">@alexchen</p>
+          <p class="profile-bio">Full-stack developer passionate about open source</p>
+          <div class="profile-stats">
+            <span><i class="fas fa-code-branch"></i> 1.2k repos</span>
+            <span><i class="fas fa-star"></i> 15k stars</span>
+            <span><i class="fas fa-users"></i> 5k followers</span>
+          </div>
+          <div class="profile-skills">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <button type="button" class="follow-btn">
+          <i class="fas fa-user-plus"></i> Follow
+        </button>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=developer2" alt="Developer">
+          <div class="status-indicator online"></div>
+        </div>
+        <div class="profile-info">
+          <h3>Sarah Johnson</h3>
+          <p class="profile-username">@sarahj</p>
+          <p class="profile-bio">AI/ML engineer building the future</p>
+          <div class="profile-stats">
+            <span><i class="fas fa-code-branch"></i> 890 repos</span>
+            <span><i class="fas fa-star"></i> 22k stars</span>
+            <span><i class="fas fa-users"></i> 8k followers</span>
+          </div>
+          <div class="profile-skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">PyTorch</span>
+          </div>
+        </div>
+        <button type="button" class="follow-btn">
+          <i class="fas fa-user-plus"></i> Follow
+        </button>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=developer3" alt="Developer">
+          <div class="status-indicator away"></div>
+        </div>
+        <div class="profile-info">
+          <h3>Marcus Rodriguez</h3>
+          <p class="profile-username">@marcusr</p>
+          <p class="profile-bio">DevOps specialist &amp; cloud architect</p>
+          <div class="profile-stats">
+            <span><i class="fas fa-code-branch"></i> 650 repos</span>
+            <span><i class="fas fa-star"></i> 18k stars</span>
+            <span><i class="fas fa-users"></i> 6k followers</span>
+          </div>
+          <div class="profile-skills">
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Docker</span>
+          </div>
+        </div>
+        <button type="button" class="follow-btn">
+          <i class="fas fa-user-plus"></i> Follow
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repositories Section -->
+  <section class="repositories-section" id="repositories">
+    <div class="section-header">
+      <h2>Trending Repositories</h2>
+      <p>Discover the most popular projects on GitHub</p>
+    </div>
+    <div class="repos-grid">
+      <div class="repo-card">
+        <div class="repo-header">
+          <div class="repo-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <div class="repo-title-section">
+            <h3>next-gen-ui</h3>
+            <p class="repo-owner">@react-team</p>
+          </div>
+          <button type="button" class="star-btn">
+            <i class="fas fa-star"></i>
+            <span>12.5k</span>
+          </button>
+        </div>
+        <p class="repo-description">
+          Revolutionary UI framework built for the future of web development
+        </p>
+        <div class="repo-stats">
+          <span><i class="fas fa-code-branch"></i> 2.3k forks</span>
+          <span><i class="fas fa-eye"></i> 45k views</span>
+          <span><i class="fas fa-circle"></i> JavaScript</span>
+        </div>
+        <div class="repo-footer">
+          <div class="repo-contributors">
+            <div class="contributor-avatar contributor-1"></div>
+            <div class="contributor-avatar contributor-2"></div>
+            <div class="contributor-avatar contributor-3"></div>
+            <span>+12 contributors</span>
+          </div>
+          <span class="repo-updated">Updated 2 hours ago</span>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div class="repo-header">
+          <div class="repo-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="repo-title-section">
+            <h3>ai-framework</h3>
+            <p class="repo-owner">@ml-community</p>
+          </div>
+          <button type="button" class="star-btn">
+            <i class="fas fa-star"></i>
+            <span>8.9k</span>
+          </button>
+        </div>
+        <p class="repo-description">
+          Next-generation machine learning framework with quantum computing support
+        </p>
+        <div class="repo-stats">
+          <span><i class="fas fa-code-branch"></i> 1.8k forks</span>
+          <span><i class="fas fa-eye"></i> 32k views</span>
+          <span><i class="fas fa-circle"></i> Python</span>
+        </div>
+        <div class="repo-footer">
+          <div class="repo-contributors">
+            <div class="contributor-avatar contributor-4"></div>
+            <div class="contributor-avatar contributor-5"></div>
+            <div class="contributor-avatar contributor-6"></div>
+            <span>+8 contributors</span>
+          </div>
+          <span class="repo-updated">Updated 5 hours ago</span>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div class="repo-header">
+          <div class="repo-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="repo-title-section">
+            <h3>cloud-infra</h3>
+            <p class="repo-owner">@devops-team</p>
+          </div>
+          <button type="button" class="star-btn">
+            <i class="fas fa-star"></i>
+            <span>6.2k</span>
+          </button>
+        </div>
+        <p class="repo-description">
+          Scalable cloud infrastructure toolkit for modern applications
+        </p>
+        <div class="repo-stats">
+          <span><i class="fas fa-code-branch"></i> 1.2k forks</span>
+          <span><i class="fas fa-eye"></i> 28k views</span>
+          <span><i class="fas fa-circle"></i> Go</span>
+        </div>
+        <div class="repo-footer">
+          <div class="repo-contributors">
+            <div class="contributor-avatar contributor-7"></div>
+            <div class="contributor-avatar contributor-8"></div>
+            <div class="contributor-avatar contributor-9"></div>
+            <span>+15 contributors</span>
+          </div>
+          <span class="repo-updated">Updated 1 day ago</span>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div class="repo-header">
+          <div class="repo-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="repo-title-section">
+            <h3>mobile-sdk</h3>
+            <p class="repo-owner">@mobile-dev</p>
+          </div>
+          <button type="button" class="star-btn">
+            <i class="fas fa-star"></i>
+            <span>9.4k</span>
+          </button>
+        </div>
+        <p class="repo-description">
+          Cross-platform mobile development SDK with native performance
+        </p>
+        <div class="repo-stats">
+          <span><i class="fas fa-code-branch"></i> 1.5k forks</span>
+          <span><i class="fas fa-eye"></i> 38k views</span>
+          <span><i class="fas fa-circle"></i> TypeScript</span>
+        </div>
+        <div class="repo-footer">
+          <div class="repo-contributors">
+            <div class="contributor-avatar contributor-10"></div>
+            <div class="contributor-avatar contributor-11"></div>
+            <div class="contributor-avatar contributor-12"></div>
+            <span>+10 contributors</span>
+          </div>
+          <span class="repo-updated">Updated 3 hours ago</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activity Feed -->
+  <section class="activity-section" id="activity">
+    <div class="section-header">
+      <h2>Recent Activity</h2>
+      <p>Stay updated with the latest from your network</p>
+    </div>
+    <div class="activity-feed">
+      <div class="activity-item">
+        <div class="activity-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=user1" alt="User">
+        </div>
+        <div class="activity-content">
+          <div class="activity-header">
+            <strong>Alex Chen</strong> starred <strong>next-gen-ui</strong>
+            <span class="activity-time">2 hours ago</span>
+          </div>
+          <div class="activity-repo">
+            <i class="fab fa-react"></i>
+            <span>react-team/next-gen-ui</span>
+          </div>
+        </div>
+        <div class="activity-action">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+
+      <div class="activity-item">
+        <div class="activity-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=user2" alt="User">
+        </div>
+        <div class="activity-content">
+          <div class="activity-header">
+            <strong>Sarah Johnson</strong> forked <strong>ai-framework</strong>
+            <span class="activity-time">4 hours ago</span>
+          </div>
+          <div class="activity-repo">
+            <i class="fas fa-brain"></i>
+            <span>ml-community/ai-framework</span>
+          </div>
+        </div>
+        <div class="activity-action">
+          <i class="fas fa-code-branch"></i>
+        </div>
+      </div>
+
+      <div class="activity-item">
+        <div class="activity-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=user3" alt="User">
+        </div>
+        <div class="activity-content">
+          <div class="activity-header">
+            <strong>Marcus Rodriguez</strong> opened a pull request
+            <span class="activity-time">6 hours ago</span>
+          </div>
+          <div class="activity-repo">
+            <i class="fas fa-server"></i>
+            <span>devops-team/cloud-infra</span>
+          </div>
+        </div>
+        <div class="activity-action">
+          <i class="fas fa-code-branch"></i>
+        </div>
+      </div>
+
+      <div class="activity-item">
+        <div class="activity-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=user4" alt="User">
+        </div>
+        <div class="activity-content">
+          <div class="activity-header">
+            <strong>Emma Wilson</strong> created repository <strong>web3-toolkit</strong>
+            <span class="activity-time">8 hours ago</span>
+          </div>
+          <div class="activity-repo">
+            <i class="fas fa-cube"></i>
+            <span>emma-wilson/web3-toolkit</span>
+          </div>
+        </div>
+        <div class="activity-action">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Network Connections -->
+  <section class="network-section" id="network">
+    <div class="section-header">
+      <h2>Your Network</h2>
+      <p>Connect with developers and grow your community</p>
+    </div>
+    <div class="network-visualization">
+      <div class="network-node center-node">
+        <div class="node-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=you" alt="You">
+        </div>
+        <div class="node-label">You</div>
+      </div>
+      <div class="network-connections">
+        <svg class="connection-lines" viewBox="0 0 800 600">
+          <line x1="400" y1="300" x2="200" y2="150" class="connection-line"></line>
+          <line x1="400" y1="300" x2="600" y2="150" class="connection-line"></line>
+          <line x1="400" y1="300" x2="200" y2="450" class="connection-line"></line>
+          <line x1="400" y1="300" x2="600" y2="450" class="connection-line"></line>
+        </svg>
+      </div>
+      <div class="network-node network-node-1">
+        <div class="node-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=conn1" alt="Connection">
+        </div>
+        <div class="node-label">Alex</div>
+      </div>
+      <div class="network-node network-node-2">
+        <div class="node-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=conn2" alt="Connection">
+        </div>
+        <div class="node-label">Sarah</div>
+      </div>
+      <div class="network-node network-node-3">
+        <div class="node-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=conn3" alt="Connection">
+        </div>
+        <div class="node-label">Marcus</div>
+      </div>
+      <div class="network-node network-node-4">
+        <div class="node-avatar">
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=conn4" alt="Connection">
+        </div>
+        <div class="node-label">Emma</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contribution Graph -->
+  <section class="contribution-section">
+    <div class="section-header">
+      <h2>Contribution Activity</h2>
+      <p>Your coding journey visualized</p>
+    </div>
+    <div class="contribution-graph">
+      <div class="graph-header">
+        <div class="graph-legend">
+          <span>Less</span>
+          <div class="legend-squares">
+            <div class="legend-square"></div>
+            <div class="legend-square"></div>
+            <div class="legend-square"></div>
+            <div class="legend-square"></div>
+          </div>
+          <span>More</span>
+        </div>
+      </div>
+      <div class="graph-container" id="contributionGraph">
+        <!-- Graph will be generated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <i class="fab fa-github"></i>
+        <h2>GitHub Social</h2>
+        <p>The future of developer networking</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Enterprise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Developers</h3>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a href="#" class="social-icon" data-tooltip="GitHub" aria-label="Visit our GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-icon" data-tooltip="Twitter" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon" data-tooltip="LinkedIn" aria-label="Connect on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" data-tooltip="Discord" aria-label="Join our Discord"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GitHub Social Network. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Horizontal Scroll Buttons -->
+  <div class="scroll-indicator" id="scrollIndicator">
+    <button type="button" class="scroll-btn" id="scrollLeft" aria-label="Scroll Left">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button type="button" class="scroll-btn" id="scrollRight" aria-label="Scroll Right">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
